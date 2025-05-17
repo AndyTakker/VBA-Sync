@@ -21,6 +21,7 @@ import win32com.client
 import pywintypes
 from datetime import datetime
 import argparse
+from importlib.metadata import version
 
 def check_dependencies():
     try:
@@ -43,6 +44,7 @@ After installation, you may need to run:
 
 
 def main():
+    print(version('vba-sync'))  # выведем версию модуля
     parser = argparse.ArgumentParser(description="Export or import VBA macros from Word/Excel documents.")
     parser.add_argument("action", choices=["export", "import"], help="Action to perform")
     parser.add_argument("document", help="Name of the document file (e.g., mydoc.docm)")

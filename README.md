@@ -23,7 +23,7 @@ Microsoft Word or Excel installed
 
 Trust access to the VBA project object model enabled in Office settings
 
-# USAGE
+# Usage
 
 ## Export macros
 vba-sync export your_file.docm

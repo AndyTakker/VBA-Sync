@@ -1,8 +1,4 @@
 Instruction.txt
 PyPI-Recovery-Codes-AndyTakker-2025-05-10T22_09_46.856138.txt
-build/*.*
-dist/*.*
-build/lib/*.*
-build/lib/vba_sync/*.*
-vba_sync.egg-info/*.*
-vba_sync.egg-info/PKG-INFO
+dist/*
+vba_sync.egg-info/*
