@@ -1,5 +1,5 @@
 Instruction.txt
 PyPI-Recovery-Codes-AndyTakker-2025-05-10T22_09_46.856138.txt
 dist/*
-vba_sync.egg-info/*
-vba_sync/__pycache__/*
+__pycache__
+src/vba_sync.egg-info/
